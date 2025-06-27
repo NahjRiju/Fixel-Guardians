@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e899bb82b4036db4d80be6070c811f36, type: 3}
+  m_Name: 19_SMA-1
+  m_EditorClassIdentifier: 
+  learningName: 19_SMA-1
+  learningImage: {fileID: 21300000, guid: 6c7e7635e132fab4e894d7aab6d6cbc0, type: 3}
+  learningDescription: Stop Motion Animation is a technique that makes still objects
+    appear to move by photographing them frame by frame.

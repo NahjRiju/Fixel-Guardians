@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e899bb82b4036db4d80be6070c811f36, type: 3}
+  m_Name: 10_DC-1
+  m_EditorClassIdentifier: 
+  learningName: 10_DC-1
+  learningImage: {fileID: 21300000, guid: 7c4d2b164ccdd064aac0cfd777d9a494, type: 3}
+  learningDescription: "Digital Compositing involves a Digital Compositing involves
+    assembling multiple images to create a final visual\u2014whether it\u2019s a
+    still image, screen display, or a scene in a film. This process is powered by
+    digital image manipulation tools."

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e899bb82b4036db4d80be6070c811f36, type: 3}
+  m_Name: 11_DC-2
+  m_EditorClassIdentifier: 
+  learningName: 11_DC-2
+  learningImage: {fileID: 21300000, guid: 7c4d2b164ccdd064aac0cfd777d9a494, type: 3}
+  learningDescription: "It\u2019s the process of merging visual elements from different
+    sources into a single cohesive image\u2014often used to create the illusion that
+    all elements exist within the same scene.\r\n"
