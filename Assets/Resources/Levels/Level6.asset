@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7fc830f1ed04a444bce75048d702cab, type: 3}
+  m_Name: Level6
+  m_EditorClassIdentifier: 
+  levelName: Level 6
+  sceneName: Level6
+  levelIcon: {fileID: 21300000, guid: cc99ca0d9b764ca43be2baff976b43e1, type: 3}
+  lockIcon: {fileID: 8951557226893895558, guid: d36270e47d36e304a9d89c1fc73428e9,
+    type: 3}
+  isLocked: 1

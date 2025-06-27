@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56552c55a27ecb4880493b2903047de, type: 3}
+  m_Name: TutorialEnemy
+  m_EditorClassIdentifier: 
+  enemyName: Dummy Enemy
+  enemyIcon: {fileID: 21300000, guid: a637741b1feffd44887954f88318353b, type: 3}
+  enemyDescription: 
+  type: 0
+  maxHealth: 10
+  initialRatio: 1
+  roamSpeed: 2
+  chaseSpeed: 5
+  combatRange: 8
+  detectionRange: 10
+  attackDamage: 20
+  availableEffects: []
+  roamRadius: 5
+  changeDirectionInterval: 3
+  animatorController: {fileID: 9100000, guid: b4a4be97ac66398459359e424bd0dc3f, type: 2}
+  lootPrefab: {fileID: 7636191251505691029, guid: 2777f3ec31aa623439913a56d5dda146,
+    type: 3}
+  enemyPrefab: {fileID: 5525133992388539489, guid: a1f02fcf8ef90b745bd3c1ee35b64cde,
+    type: 3}
+  questions:
+  - {fileID: 11400000, guid: 98a35fa10135a914aa75dce921b3fecd, type: 2}
+  - {fileID: 11400000, guid: 4e8ce189cee90ff46997794deb74b1d9, type: 2}
+  - {fileID: 11400000, guid: 2aae8c54826ba354aa9cbb8de7c79697, type: 2}
