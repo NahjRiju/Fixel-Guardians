@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8399273d6ac566f418101f3349c46ac1, type: 3}
+  m_Name: Debuff_Freeze
+  m_EditorClassIdentifier: 
+  effectName: Freeze
+  effectIcon: {fileID: 21300000, guid: 1b2552c27d13fee43b154e457634b7a8, type: 3}
+  learningDescription: Freeze
+  effectType: 12
+  effectCategory: 1
+  triggerTiming: 0
+  effectValue: 0
+  effectTurns: 3
+  statusEffectPrefab: {fileID: 4932088507883938021, guid: 0e5709a7ddb77924090c112cf73bb98a,
+    type: 3}
+  effectSound: {fileID: 8300000, guid: b6747b9d89c8e484c8c980ae02557525, type: 3}
+  audioMixerGroup: {fileID: -3606416745728226670, guid: d91711f6679a4fe4ba722467a2d07445,
+    type: 2}
+  soundVolume: 1
