@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f19d2501faf54d4fb14f0c8fa623604, type: 3}
+  m_Name: TutorialPlayerConfig
+  m_EditorClassIdentifier: 
+  playerDamage: 20
+  maxHealth: 100
+  initialRatio: 1
+  moveSpeed: 12
+  sprintSpeed: 24
+  jumpHeight: 1.5
+  gravity: -15
+  rotationSmoothTime: 0.12
+  speedChangeRate: 16
+  groundedOffset: -0.14
+  groundedRadius: 0.28
+  jumpTimeout: 0.5
+  fallTimeout: 0.15
+  selectedEffects: []
+  collectedBuffs: []

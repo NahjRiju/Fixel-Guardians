@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f19d2501faf54d4fb14f0c8fa623604, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  playerDamage: 10
+  maxHealth: 100
+  initialRatio: 1
+  moveSpeed: 24
+  sprintSpeed: 48
+  jumpHeight: 2
+  gravity: -16
+  rotationSmoothTime: 0.12
+  speedChangeRate: 36
+  groundedOffset: 0.3
+  groundedRadius: 0.8
+  jumpTimeout: 0.55
+  fallTimeout: 0.01
+  selectedEffects:
+  - {fileID: 11400000, guid: ecb8fcdccbd0c8c44b59b28c3a8b5c50, type: 2}
