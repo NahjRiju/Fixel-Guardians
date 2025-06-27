@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be966ace75cabc743bcd22d647e7ba3c, type: 3}
+  m_Name: LandmineTrapConfig
+  m_EditorClassIdentifier: 
+  detectionRadius: 2
+  damage: 20
+  explosionDelay: 0.5
+  explosionEffectPrefab: {fileID: 8968461685192129701, guid: e56bc6ecd33e3ed41ae2740e1778af1a,
+    type: 3}
+  landminePrefab: {fileID: 8156018250252005641, guid: 9eadda52eb450ce418d54859ed6f6b57,
+    type: 3}
+  detectionSound: {fileID: 8300000, guid: 2fa9a4984efa3334a984fd55b92694cd, type: 3}
+  explosionSound: {fileID: 8300000, guid: 11ddf9c0aa821a34abffc246782bc99b, type: 3}

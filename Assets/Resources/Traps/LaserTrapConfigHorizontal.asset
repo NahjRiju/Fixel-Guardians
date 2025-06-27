@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2c64dedb63a054b8d6a22be6371355, type: 3}
+  m_Name: LaserTrapConfigHorizontal
+  m_EditorClassIdentifier: 
+  damage: 5
+  speed: 1
+  moveDistance: 2
+  isLooping: 1
+  movementType: 0
+  movementDirection: 1
+  laserBeamPrefab: {fileID: 3454232033851843053, guid: b7e26a11b441ee640aefd8548413c443,
+    type: 3}
+  laserSound: {fileID: 8300000, guid: 02169535d255ee745a69634fb2166bcb, type: 3}

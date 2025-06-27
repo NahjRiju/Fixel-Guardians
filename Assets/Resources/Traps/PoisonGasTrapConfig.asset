@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6652bdba8bc524b9d02b1062a08036, type: 3}
+  m_Name: PoisonGasTrapConfig
+  m_EditorClassIdentifier: 
+  gasDuration: 5
+  damagePerSecond: 10
+  expansionSpeed: 0.1
+  maxRadius: 8
+  autoStartOnAwake: 1
+  gasVFXPrefab: {fileID: 1086828046810193692, guid: 5a4bea30a1f639541924a988cb0d5c56,
+    type: 3}
+  loopGas: 1
+  loopDelay: 3
+  fadeOutDuration: 1
+  hissSound: {fileID: 8300000, guid: 20827015fb6c302489c41cf85f2075d8, type: 3}

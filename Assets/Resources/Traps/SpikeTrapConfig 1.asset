@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92ce80c3ab88464b8bd721e5b7bfb59, type: 3}
+  m_Name: SpikeTrapConfig 1
+  m_EditorClassIdentifier: 
+  damage: 10
+  delayBeforeSpike: 1
+  spikeDuration: 1
+  cooldown: 2
+  riseHeight: 3
+  riseSpeed: 5
+  spikeSound: {fileID: 8300000, guid: d1a5e09968e3f924d89db39e721b5642, type: 3}
+  spikePrefab: {fileID: 641879074783989000, guid: f723c80cfb039334f9925e2ab6d8f1d4,
+    type: 3}
+  isLooping: 1
+  loopDelay: 2
