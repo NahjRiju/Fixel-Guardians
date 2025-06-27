@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e899bb82b4036db4d80be6070c811f36, type: 3}
+  m_Name: Node Graph
+  m_EditorClassIdentifier: 
+  learningName: Node Graph
+  learningImage: {fileID: 21300000, guid: c1e5ecfdeb0b9794a9147b5fe3cb9a77, type: 3}
+  learningDescription: This panel is where connections are made between the nodes
+    to define the processing order of the image.
