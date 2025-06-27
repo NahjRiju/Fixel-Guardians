@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc1763168248149a1a66c243a77d4f, type: 3}
+  m_Name: Level1-3_LootConfig
+  m_EditorClassIdentifier: 
+  zoneLoot:
+  - zoneIdentifier: Level1-3_Zone1
+    lootTable: {fileID: 11400000, guid: 21b03f778e7c12844bb0d78010142a1f, type: 2}
+  - zoneIdentifier: Level1-3_Zone2
+    lootTable: {fileID: 11400000, guid: f8165796831c8874ba817f5ddc4190b8, type: 2}
+  - zoneIdentifier: Level1-3_Zone3
+    lootTable: {fileID: 11400000, guid: f377f2cae74504f4ea75b96acd58b2dc, type: 2}
+  - zoneIdentifier: Level1-3_Zone4
+    lootTable: {fileID: 11400000, guid: 18a30720b36c6ab409b47be4e5af6df8, type: 2}
