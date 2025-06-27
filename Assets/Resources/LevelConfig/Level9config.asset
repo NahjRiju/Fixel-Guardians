@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f514a0d1523d7094291d8310f53f6aa2, type: 3}
+  m_Name: Level9config
+  m_EditorClassIdentifier: 
+  levelName: Level9
+  nextLevelSceneName: Level10
+  cutsceneImages:
+  - {fileID: 21300000, guid: b47c8e4c825ccab4e8786a6de53a762e, type: 3}
+  - {fileID: 21300000, guid: 979da9ca33f17744683dcf7f628ba5d1, type: 3}
+  cutsceneNarratives:
+  - "The Mini Boss is holding the Chroma Key Gem\u2014a powerful VFX element that
+    once contributed greatly to the balance of Hilographica."
+  - Long must use the Chroma Key Object to defeat the Mini Boss and reclaim the gem.
+  cutsceneBGM: {fileID: 8300000, guid: 3cb2af9af6ef5af45b3e858e675cffb2, type: 3}
+  cutsceneSFX:
+  - {fileID: 8300000, guid: 4034ffe6272b0ce46bcb10280e143aa8, type: 3}
+  - {fileID: 8300000, guid: 4034ffe6272b0ce46bcb10280e143aa8, type: 3}
+  startPanelPrefab: {fileID: 8500097535031411732, guid: 35581cc4a10d6cd448452e93f4f025eb,
+    type: 3}
+  winPanelPrefab: {fileID: 8764045648140493152, guid: d49c9d75810f12741a8d93bc48717fb5,
+    type: 3}
+  gameOverPanelPrefab: {fileID: 6720510983799196948, guid: 5df9c1e2d421e864981e3dcd36378c25,
+    type: 3}
+  cutscenePanelPrefab: {fileID: 1185171297643480176, guid: 7c9c0c6c262ee1f45818ef29e008ac4d,
+    type: 3}
+  pausePanelPrefab: {fileID: 5040256795140993418, guid: 25620231bf74d5e4e91501de876819ea,
+    type: 3}
+  introCharacterDialogue:
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Welcome to Planet Nabu\u2014land of illusions, where reality
+        bends and green becomes anything."
+      voiceClip: {fileID: 8300000, guid: 08549b87f74e98948917ec1f8d07f447, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 160, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 3, y: 2, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Chroma Key... this is the tech behind teleportation and transformation,
+        isn\u2019t it?"
+      voiceClip: {fileID: 8300000, guid: 3a9eea9c4cce08b46aeb05d3344f5a28, type: 3}
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Exactly. It\u2019s power hidden in plain color. But distortion
+        lies ahead\u2014stay sharp."
+      voiceClip: {fileID: 8300000, guid: 740766c146d96d0408dac0de37e68ad6, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: "No illusion can stop me now. Let\u2019s finish this."
+      voiceClip: {fileID: 8300000, guid: a38c6af9dfbbe6441a03009cbb1df634, type: 3}
+  objectives:
+  - objectiveName: 'Explore and collect the History of Chroma, Green Screen Mechanism,
+      and Background Replacement Protocol Knowledge fragments. '
+    conditionType: 2
+    conditionParameter: IaDFragments
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 2
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: "Chroma\u2019s been bending realities for over a century. Blue
+          came first, but green took the spotlight when digital became king!"
+        voiceClip: {fileID: 8300000, guid: 962bdcf56fd60c144b5ffa30476851dd, type: 3}
+    learningEntriesToUnlock:
+    - Chroma Origins
+    - Chroma Key
+    - Compositing
+  - objectiveName: 'Avoid traps and collect the Color Choice, Setup Protocol, Makeup
+      & Light Awareness, and Depth & Distance Rule Knowledge fragments. '
+    conditionType: 2
+    conditionParameter: VCKFragments
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 3
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2.3, y: 1.5, z: 1}
+      dialogueEntries:
+      - dialogueLine: Back it up! Too close, and the green eats your subject alive.
+        voiceClip: {fileID: 8300000, guid: 031f347988a07e442ad05d3b3c03c147, type: 3}
+    learningEntriesToUnlock:
+    - Why Green
+    - Setup Rule
+    - Lighting Tip
+    - Subject Distance
+  - objectiveName: Avoid traps and collect the Smooth Screen Insight, Camera Lock
+      Principle, Zoom Caution Data, and Cove Wall Blueprint Knowledge fragments.
+    conditionType: 2
+    conditionParameter: SmoFragments
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 5
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 130}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2.3, y: 1.5, z: 1}
+      dialogueEntries:
+      - dialogueLine: "A wrinkled screen? That\u2019s a compositing nightmare!"
+        voiceClip: {fileID: 8300000, guid: 504ad5e1626784842add0b1d94cb4c9e, type: 3}
+    learningEntriesToUnlock:
+    - Software Matters
+    - Wrinkle-Free
+    - Static Camera
+    - No Zooming
+    - Coved Screens
+  - objectiveName: 'Defeat minions to retrieve the Chroma Key Object.  '
+    conditionType: 4
+    conditionParameter: Zone1-1
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: "From free apps to pro software\u2014know your tools. Simple
+          scenes don\u2019t need blockbuster tech."
+        voiceClip: {fileID: 8300000, guid: 8991573103718a4438b10799ddfcc2f7, type: 3}
+    learningEntriesToUnlock: []
+  - objectiveName: Defeat the MINIBOSS BATTLE and unlock the Chroma Key. Road to
+      Victory Reward
+    conditionType: 4
+    conditionParameter: DCKFragments
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: Bravo! With the Chroma Key, deception becomes your weapon.
+          Go bend reality, Guardian!
+        voiceClip: {fileID: 8300000, guid: 5bcf994fde6978a498102d94e48954e2, type: 3}
+    learningEntriesToUnlock: []
+  objectiveListItemPrefab: {fileID: 486514409732201406, guid: 9a4a3cacf6a24494f8e4115bb1c6cab5,
+    type: 3}

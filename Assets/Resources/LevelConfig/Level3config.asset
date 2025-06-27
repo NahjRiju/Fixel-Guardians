@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f514a0d1523d7094291d8310f53f6aa2, type: 3}
+  m_Name: Level3config
+  m_EditorClassIdentifier: 
+  levelName: Level3
+  nextLevelSceneName: Level4
+  cutsceneImages:
+  - {fileID: 21300000, guid: 3263ebb40c86f6747bce25fb1bc41637, type: 3}
+  - {fileID: 21300000, guid: 62bc7e97ca3b8494185ebf2985c8cfb4, type: 3}
+  cutsceneNarratives:
+  - 'Long must retrieve the Matte Painting Stone and Motion Control Photography Stone
+    to enhance his visual manipulation and movement control abilities. '
+  - ' By overcoming challenges, and defeating Rex 103 and Rex 104, Long will gain
+    the power needed to restore balance and continue his journey. '
+  cutsceneBGM: {fileID: 8300000, guid: 2c20274a0a9dd314e8c1cbe775910650, type: 3}
+  cutsceneSFX:
+  - {fileID: 8300000, guid: 4034ffe6272b0ce46bcb10280e143aa8, type: 3}
+  - {fileID: 8300000, guid: 4034ffe6272b0ce46bcb10280e143aa8, type: 3}
+  - {fileID: 8300000, guid: 4034ffe6272b0ce46bcb10280e143aa8, type: 3}
+  startPanelPrefab: {fileID: 8500097535031411732, guid: 35581cc4a10d6cd448452e93f4f025eb,
+    type: 3}
+  winPanelPrefab: {fileID: 8764045648140493152, guid: d49c9d75810f12741a8d93bc48717fb5,
+    type: 3}
+  gameOverPanelPrefab: {fileID: 6720510983799196948, guid: 5df9c1e2d421e864981e3dcd36378c25,
+    type: 3}
+  cutscenePanelPrefab: {fileID: 1185171297643480176, guid: 7c9c0c6c262ee1f45818ef29e008ac4d,
+    type: 3}
+  pausePanelPrefab: {fileID: 5040256795140993418, guid: 25620231bf74d5e4e91501de876819ea,
+    type: 3}
+  introCharacterDialogue:
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: Long, the journey continues. The next step in reclaiming Hilographica
+        lies ahead.
+      voiceClip: {fileID: 8300000, guid: 12f0cf2484eb6c34da1e8c8b2fdb912a, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 160, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 3, y: 2, z: 1}
+    dialogueEntries:
+    - dialogueLine: "What\u2019s our objective?"
+      voiceClip: {fileID: 8300000, guid: 55b51301bbe1da8478daa6584a51d786, type: 3}
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Two stones remain within this sector\u2014the Matte Painting
+        Stone and the Motion Control Photography Stone. They are crucial to enhancing
+        your visual manipulation and movement control."
+      voiceClip: {fileID: 8300000, guid: ee21af03d974ea545b92532f0576ceb5, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 160, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 3, y: 2, z: 1}
+    dialogueEntries:
+    - dialogueLine: Where do I find them?
+      voiceClip: {fileID: 8300000, guid: e1472dd4b1056ca40a48397567d2b014, type: 3}
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: '"Rex 103 and Rex 104 guard them fiercely. You must retrieve
+        both to restore balance and push forward.'
+      voiceClip: {fileID: 8300000, guid: 1b5a21e5a5fa06543995268eb846c315, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 160, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 3, y: 2, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Then let\u2019s get to work."
+      voiceClip: {fileID: 8300000, guid: 302de19afc3c9b347bb5678f47ecb00d, type: 3}
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: Like what we did in the previous level, we need to explore, collect,
+        and defeat minions.
+      voiceClip: {fileID: 8300000, guid: ee21af03d974ea545b92532f0576ceb5, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 160, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 3, y: 2, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Got it, GNUS. Let\u2019s do this!"
+      voiceClip: {fileID: 8300000, guid: 5f9b2da543b036e41aed89dca5405216, type: 3}
+  objectives:
+  - objectiveName: Explore the environment and collect the Matte Painting Knowledge
+      Fragments.
+    conditionType: 2
+    conditionParameter: MPFragments
+    objectiveWorldPosition: {x: -165, y: 49, z: 1190}
+    objectiveMarkerPrefab: {fileID: 3006140160384702878, guid: 6d650cfa5952d32449c37fc271b23b12,
+      type: 3}
+    restrictedZonePrefab: {fileID: 4662854361590464033, guid: b5f115d5b682913408f095ec7356bad5,
+      type: 3}
+    restrictedZonePosition: {x: -242, y: 22, z: 1260}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 30, y: 30, z: 1}
+    currentCount: 0
+    requiredCount: 3
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 130}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: Nice! You've gathered the Matte Painting Knowledge Fragments.
+          You're learning how to create stunning environments!
+        voiceClip: {fileID: 8300000, guid: 1c1cef6ac1c854f4e8521f7221c5a5c8, type: 3}
+    learningEntriesToUnlock:
+    - 13_MP-1
+    - 14_MP-2
+    - 15_MP-3
+  - objectiveName: Defeat the Minions using the Digital Compositing Object and collect
+      the Matte Painting Object.
+    conditionType: 4
+    conditionParameter: Level1-3_Zone1
+    objectiveWorldPosition: {x: -242, y: 8, z: 1305}
+    objectiveMarkerPrefab: {fileID: 3006140160384702878, guid: 6d650cfa5952d32449c37fc271b23b12,
+      type: 3}
+    restrictedZonePrefab: {fileID: 4662854361590464033, guid: b5f115d5b682913408f095ec7356bad5,
+      type: 3}
+    restrictedZonePosition: {x: -240, y: 10, z: 1340}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 60, y: 60, z: 1}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: Well done! You've defeated the minions and secured the Matte
+          Painting Object. Keep going!
+        voiceClip: {fileID: 8300000, guid: e34ca0a27351aba4a9a1c5601c9890bf, type: 3}
+    learningEntriesToUnlock: []
+  - objectiveName: Use the Matte Painting Object to defeat Rex 105 and claim the
+      Matte Painting Stone.
+    conditionType: 4
+    conditionParameter: Level1-3_Zone2
+    objectiveWorldPosition: {x: -236, y: 10, z: 1360}
+    objectiveMarkerPrefab: {fileID: 3006140160384702878, guid: 6d650cfa5952d32449c37fc271b23b12,
+      type: 3}
+    restrictedZonePrefab: {fileID: 4662854361590464033, guid: b5f115d5b682913408f095ec7356bad5,
+      type: 3}
+    restrictedZonePosition: {x: -133, y: 55, z: 1175}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 30, y: 30, z: 1}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: You've defeated Rex 105 and claimed the Matte Painting Stone.
+          You're now a digital artist!
+        voiceClip: {fileID: 8300000, guid: 1bb2662ab2853a046b7d653a4f602da6, type: 3}
+    learningEntriesToUnlock: []
+  - objectiveName: Explore the environment and collect the Motion Control Photography
+      Knowledge Fragments.
+    conditionType: 2
+    conditionParameter: MCPFragments
+    objectiveWorldPosition: {x: -135, y: 51, z: 1173}
+    objectiveMarkerPrefab: {fileID: 3006140160384702878, guid: 6d650cfa5952d32449c37fc271b23b12,
+      type: 3}
+    restrictedZonePrefab: {fileID: 4662854361590464033, guid: b5f115d5b682913408f095ec7356bad5,
+      type: 3}
+    restrictedZonePosition: {x: -129, y: 15, z: 1053}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 30, y: 30, z: 1}
+    currentCount: 0
+    requiredCount: 3
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: Awesome! You've gathered the Motion Control Photography Knowledge
+          Fragments. You're becoming a master of complex camera movements!
+        voiceClip: {fileID: 8300000, guid: d996484ae1b414a4db5f9076a393df88, type: 3}
+    learningEntriesToUnlock:
+    - 16_MCP-1
+    - 17_MCP-2
+    - 18_MCP-3
+  - objectiveName: Defeat the Minions using the Matte Painting Object and collect
+      the Motion Control Photography Object.
+    conditionType: 4
+    conditionParameter: Level1-3_Zone3
+    objectiveWorldPosition: {x: -130, y: 10, z: 1015}
+    objectiveMarkerPrefab: {fileID: 3006140160384702878, guid: 6d650cfa5952d32449c37fc271b23b12,
+      type: 3}
+    restrictedZonePrefab: {fileID: 4662854361590464033, guid: b5f115d5b682913408f095ec7356bad5,
+      type: 3}
+    restrictedZonePosition: {x: -130, y: 15, z: 1014}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 40, y: 40, z: 1}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: Well done! You've defeated the minions and secured the Motion
+          Control Photography Object. Almost there!"
+        voiceClip: {fileID: 8300000, guid: d09c134a27b729241adab6b0333f21d7, type: 3}
+    learningEntriesToUnlock: []
+  - objectiveName: Use the Motion Control Photography Object to defeat Rex 104 and
+      claim the Motion Control Photography Stone.
+    conditionType: 4
+    conditionParameter: Level1-3_Zone4
+    objectiveWorldPosition: {x: -130, y: 11, z: 945}
+    objectiveMarkerPrefab: {fileID: 3006140160384702878, guid: 6d650cfa5952d32449c37fc271b23b12,
+      type: 3}
+    restrictedZonePrefab: {fileID: 4662854361590464033, guid: b5f115d5b682913408f095ec7356bad5,
+      type: 3}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 100}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2, y: 1, z: 1}
+      dialogueEntries:
+      - dialogueLine: Amazing! You've defeated Rex 104 and claimed the Motion Control
+          Photography Stone. You're a pro at controlling the camera!
+        voiceClip: {fileID: 8300000, guid: 927517332a1c80d44afb479198d77744, type: 3}
+    learningEntriesToUnlock: []
+  objectiveListItemPrefab: {fileID: 486514409732201406, guid: 9a4a3cacf6a24494f8e4115bb1c6cab5,
+    type: 3}

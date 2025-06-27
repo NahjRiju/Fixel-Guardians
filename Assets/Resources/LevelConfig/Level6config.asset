@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f514a0d1523d7094291d8310f53f6aa2, type: 3}
+  m_Name: Level6config
+  m_EditorClassIdentifier: 
+  levelName: Level6
+  nextLevelSceneName: Level7
+  cutsceneImages:
+  - {fileID: 21300000, guid: 98740edf70fe60247ba261e4e23f6ee5, type: 3}
+  - {fileID: 21300000, guid: 19400ee5f333b744f85523b3359fef20, type: 3}
+  cutsceneNarratives:
+  - "The Mini Boss is holding the Choose Bar Gem\u2014the core gem that represents
+    the 'Choose' function in Natron."
+  - To defeat the Mini Boss, Long must learn to use the Choose Bar object effectively
+    in order to overcome the challenge.
+  cutsceneBGM: {fileID: 8300000, guid: 3cb2af9af6ef5af45b3e858e675cffb2, type: 3}
+  cutsceneSFX:
+  - {fileID: 8300000, guid: 4034ffe6272b0ce46bcb10280e143aa8, type: 3}
+  - {fileID: 8300000, guid: 4034ffe6272b0ce46bcb10280e143aa8, type: 3}
+  startPanelPrefab: {fileID: 8500097535031411732, guid: 35581cc4a10d6cd448452e93f4f025eb,
+    type: 3}
+  winPanelPrefab: {fileID: 8764045648140493152, guid: d49c9d75810f12741a8d93bc48717fb5,
+    type: 3}
+  gameOverPanelPrefab: {fileID: 6720510983799196948, guid: 5df9c1e2d421e864981e3dcd36378c25,
+    type: 3}
+  cutscenePanelPrefab: {fileID: 1185171297643480176, guid: 7c9c0c6c262ee1f45818ef29e008ac4d,
+    type: 3}
+  pausePanelPrefab: {fileID: 5040256795140993418, guid: 25620231bf74d5e4e91501de876819ea,
+    type: 3}
+  introCharacterDialogue:
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: "The Menu Bar is your control center. Every function you need\u2014right
+        there."
+      voiceClip: {fileID: 8300000, guid: 922da65335c6dc3418491f3d48d0f4f7, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 160, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 3, y: 2, z: 1}
+    dialogueEntries:
+    - dialogueLine: "So it\u2019s about speed now?"
+      voiceClip: {fileID: 8300000, guid: 050f26fd485a4b7479a17a8f0990c7a5, type: 3}
+  - characterName: GNUS 101
+    characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+    imagePosition: {x: 100, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 2.3, y: 1.5, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Speed, precision, and mastery. But minions guard the way. Let\u2019s
+        outsmart them."
+      voiceClip: {fileID: 8300000, guid: 5059d5fb87604084ea29347e84ad3142, type: 3}
+  - characterName: Long
+    characterImage: {fileID: 21300000, guid: 27e4f00f053e2b34081e7d0968497be1, type: 3}
+    imagePosition: {x: 160, y: 130}
+    imageRotation: {x: 0, y: 0, z: 0}
+    imageScale: {x: 3, y: 2, z: 1}
+    dialogueEntries:
+    - dialogueLine: "Let\u2019s go. I\u2019m ready."
+      voiceClip: {fileID: 8300000, guid: 7dcd93ae577502940b4982416967c4b3, type: 3}
+  objectives:
+  - objectiveName: Explore and collect the File and Edit Menu Knowledge fragments.
+    conditionType: 2
+    conditionParameter: FEMFragments
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 2
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 130}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2.3, y: 1.5, z: 1}
+      dialogueEntries:
+      - dialogueLine: "Nice job! You\u2019ve learned how to manage and edit your
+          Natron projects. Keep going!"
+        voiceClip: {fileID: 8300000, guid: d2fed77ce10d7ba49b7e6e85d9773886, type: 3}
+    learningEntriesToUnlock:
+    - File Menu
+    - Edit Menu
+  - objectiveName: Avoid obstacles and retrieve the Layout, Display, Render Cache,
+      and Help Menu Knowledge fragments.
+    conditionType: 2
+    conditionParameter: LDRHFragments
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 4
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 130}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2.3, y: 1.5, z: 1}
+      dialogueEntries:
+      - dialogueLine: "Great work! You\u2019re now equipped with the tools to customize
+          and optimize your workspace!"
+        voiceClip: {fileID: 8300000, guid: 3686614c23e829e48a46534766736f36, type: 3}
+    learningEntriesToUnlock:
+    - Layout Menu
+    - Display Menu
+    - Render Cache
+    - Help Menu
+  - objectiveName: Defeat minions to secure the Choose Bar Object.
+    conditionType: 4
+    conditionParameter: Zone1-1
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 130}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2.3, y: 1.5, z: 1}
+      dialogueEntries:
+      - dialogueLine: "Well done! The Choose Bar Object is yours, it\u2019s time
+          to take control of your project!"
+        voiceClip: {fileID: 8300000, guid: 26759c5b2c746af46a11ec4f4d3cec6d, type: 3}
+    learningEntriesToUnlock: []
+  - objectiveName: 'Defeat MINIBOSS: Menugeist using the Choose Bar Knowledge and
+      receive the Choose Bar Gem.'
+    conditionType: 4
+    conditionParameter: Zone1-2
+    objectiveWorldPosition: {x: 0, y: 0, z: 0}
+    objectiveMarkerPrefab: {fileID: 0}
+    restrictedZonePrefab: {fileID: 0}
+    restrictedZonePosition: {x: 0, y: 0, z: 0}
+    restrictedZoneRotation: {x: 0, y: 0, z: 0}
+    restrictedZoneSize: {x: 0, y: 0, z: 0}
+    currentCount: 0
+    requiredCount: 0
+    isCompleted: 0
+    completionDialogue:
+    - characterName: GNUS 101
+      characterImage: {fileID: 21300000, guid: 90eb164e577c18a41be1dd12425759ae, type: 3}
+      imagePosition: {x: 100, y: 130}
+      imageRotation: {x: 0, y: 0, z: 0}
+      imageScale: {x: 2.3, y: 1.5, z: 1}
+      dialogueEntries:
+      - dialogueLine: "Fantastic! You\u2019ve defeated Menugeist and earned the Choose
+          Bar Gem. You\u2019re mastering the menu bar interface!"
+        voiceClip: {fileID: 8300000, guid: 4b54581aff918da478c4916114d7abc9, type: 3}
+    learningEntriesToUnlock: []
+  objectiveListItemPrefab: {fileID: 486514409732201406, guid: 9a4a3cacf6a24494f8e4115bb1c6cab5,
+    type: 3}
