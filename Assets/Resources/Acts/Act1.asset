@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abce03c8fe4abeb4e83b8fc5815b0dfc, type: 3}
+  m_Name: Act1
+  m_EditorClassIdentifier: 
+  actNumber: Act 1
+  actTitle: The Awakening
+  actIcon: {fileID: 21300000, guid: 7b80f51c5bc270042a256fcb0235987a, type: 3}
+  actDescription: Act 1
+  levels:
+  - {fileID: 11400000, guid: 55ae4d71da897c247ba2247ce7323e7c, type: 2}
+  - {fileID: 11400000, guid: 1aa0f6198602dad4b8099a6d924b1444, type: 2}
+  - {fileID: 11400000, guid: 7b9a501b0aa653f4887207ddea5a8a13, type: 2}
+  - {fileID: 11400000, guid: 4f17f0846075d354f9ab623ed3dc30b5, type: 2}
+  actMusic: {fileID: 8300000, guid: e1ed7511817732c41ba2fe877a9b0116, type: 3}
+  lockIcon: {fileID: 8951557226893895558, guid: d36270e47d36e304a9d89c1fc73428e9,
+    type: 3}
+  isLocked: 0

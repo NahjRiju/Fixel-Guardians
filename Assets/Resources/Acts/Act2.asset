@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abce03c8fe4abeb4e83b8fc5815b0dfc, type: 3}
+  m_Name: Act2
+  m_EditorClassIdentifier: 
+  actNumber: Act 2
+  actTitle: The Celestial Rift
+  actIcon: {fileID: 21300000, guid: f127f11506bd8a04f920bad1b7e356bc, type: 3}
+  actDescription: Act 2
+  levels:
+  - {fileID: 11400000, guid: dbf5aac5971bab64f83a3e1e582517c0, type: 2}
+  - {fileID: 11400000, guid: 36203eb35b5096140b5a3779eddadf84, type: 2}
+  - {fileID: 11400000, guid: 9058cb96112b51c4a96d7717c9e032cb, type: 2}
+  - {fileID: 11400000, guid: b541d28bfa98b374f97f37d24f74fbe1, type: 2}
+  actMusic: {fileID: 8300000, guid: 3cb2af9af6ef5af45b3e858e675cffb2, type: 3}
+  lockIcon: {fileID: 8951557226893895558, guid: d36270e47d36e304a9d89c1fc73428e9,
+    type: 3}
+  isLocked: 1

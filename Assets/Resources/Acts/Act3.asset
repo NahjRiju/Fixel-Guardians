@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abce03c8fe4abeb4e83b8fc5815b0dfc, type: 3}
+  m_Name: Act3
+  m_EditorClassIdentifier: 
+  actNumber: Act 3
+  actTitle: Chroma Confrontation
+  actIcon: {fileID: 21300000, guid: dd782db0dca8bd844af0dabc854979c7, type: 3}
+  actDescription: Act 3
+  levels:
+  - {fileID: 11400000, guid: af57aef97834679418e08fbeb6b48b61, type: 2}
+  - {fileID: 11400000, guid: 6b8d3bd182b2c3b4dbef95ec5bcd378b, type: 2}
+  actMusic: {fileID: 8300000, guid: 2c20274a0a9dd314e8c1cbe775910650, type: 3}
+  lockIcon: {fileID: 8951557226893895558, guid: d36270e47d36e304a9d89c1fc73428e9,
+    type: 3}
+  isLocked: 1
